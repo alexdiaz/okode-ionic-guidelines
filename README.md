@@ -228,7 +228,7 @@ import { FormGroup } from '@angular/forms';
 import { Person } from '../../models/person';
 import { FormModels } from '../../utils/form-models';
 
-let data = { 'name': 'John', 'lastname': 'Mock' } as Person; // data param to set initial value (optional)
+let data = { name: 'John', lastname: 'Mock' } as Person; // data param to set initial value (optional)
 let personForm: FormGroup = FormModels.buildForm(Person, data);
 ```
 ```html
