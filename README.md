@@ -28,30 +28,29 @@ This is the style guide defined by Okode for the development of apps with Ionic 
 ```
 
 ## Lazy pages / modules
+TODO
 
 ## Generator
+TODO
 
 ### Pages
-
 TODO
 
 ### Components
-
 TODO
 
 ### Directives
-
 TODO
 
 ### Pipes
-
 TODO
 
 ### Services
-
 TODO
 
 ## Models
+TODO
 
 ## Model-Forms (extra tool)
+TODO
 
