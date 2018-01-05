@@ -69,7 +69,8 @@ $ npm run okode:generator TYPE NAME`
 
 ```
 $ npm run okode:generator page my-page
-
+```
+```
 └── pages
     └── my-page
         ├── my-page.html
