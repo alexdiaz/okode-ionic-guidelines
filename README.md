@@ -3,7 +3,20 @@
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
 
 ### Table of contents
-TODO
+- [Project layout](#project-layout)
+- [Modules and lazy load](#modules-and-lazy-load)
+  * [App Module](#app-module)
+  * [IonicPageModule](#ionicpagemodule)
+  * [Rest of modules](#rest-of-modules)
+- [Generator](#generator)
+  * [Pages](#pages)
+  * [Components](#components)
+  * [Directives](#directives)
+  * [Pipes](#pipes)
+  * [Services](#services)
+- [Models](#models)
+- [Model-Forms (optional tool)](#api)
+
 
 # Project layout
 
@@ -147,6 +160,6 @@ $ npm run okode:generator services my-service
 # Models
 TODO
 
-# Model-Forms (extra tool)
+# Model-Forms (optional tool)
 TODO
 
