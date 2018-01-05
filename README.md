@@ -3,7 +3,7 @@
 ## Introduction
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
 
-## Project layout
+# Project layout
 
 ```
 └── src
@@ -27,10 +27,10 @@ This is the style guide defined by Okode for the development of apps with Ionic 
     └── index.html
 ```
 
-## Lazy pages / modules
+# Lazy pages / modules
 TODO
 
-## Generator
+# Generator
 TODO
 
 ### Pages
@@ -110,9 +110,9 @@ TODO
 >    └── my-service
 >```
 
-## Models
+# Models
 TODO
 
-## Model-Forms (extra tool)
+# Model-Forms (extra tool)
 TODO
 
