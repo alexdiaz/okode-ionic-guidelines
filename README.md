@@ -198,7 +198,7 @@ export function getFullName(person: Person) {
 ```
 
 # FormModels (optional tool)
-***Strategy used to generate dynamic forms (Angular Form Builder) based on models.*** Used in `iMediador` project<br>
+***Strategy used to generate dynamic forms (Angular Form Builder) based on models.*** Used in `iMediador` project.<br>
 
 The objective is not to have to re-map models when building a FormGroup with the Angular FormBuilder and to do it automatically with the use of decorators in the model.<br>
 
@@ -228,7 +228,8 @@ import { FormGroup } from '@angular/forms';
 import { Person } from '../../models/person';
 import { FormModels } from '../../utils/form-models';
 
-let personForm: FormGroup = FormModels.buildForm(Person);
+let data = { 'name': 'John', 'lastname': 'Mock' } as Person; // data param to set initial value (optional)
+let personForm: FormGroup = FormModels.buildForm(Person, data);
 ```
 ```html
   <form [formGroup]="personForm">
