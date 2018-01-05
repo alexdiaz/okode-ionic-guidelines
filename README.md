@@ -26,3 +26,8 @@ This is the style guide defined by Okode for the development of apps with Ionic 
     ├── theme
     └── index.html
 ```
+
+## Lazy pages / modules
+
+## Generator
+
