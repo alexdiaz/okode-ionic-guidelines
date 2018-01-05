@@ -73,7 +73,7 @@ TODO
 `@Directive`
 
 >```
->$ npm run okode:generator directive new-directive
+>$ npm run okode:generator directive my-directive
 >```
 >```
 >└── directives
@@ -85,10 +85,30 @@ TODO
 · [Angular Directive Doc](https://angular.io/api/core/Directive)
 
 ### Pipes
-TODO
+`@Pipe`
+
+>```
+>$ npm run okode:generator pipe my-pipe
+>```
+>```
+>└── pipes
+>    └── my-pipe
+>        ├── my-pipe.module.ts
+>        └── my-pipe.ts
+>```
+
+· [Angular Pipe Doc](https://angular.io/api/core/Pipe)
 
 ### Services
-TODO
+`@Pipe`
+
+>```
+>$ npm run okode:generator services my-service
+>```
+>```
+>└── services
+>    └── my-service
+>```
 
 ## Models
 TODO
