@@ -71,14 +71,14 @@ $ npm run okode:generator component new-component
 >```
 >$ npm run okode:generator component new-component
 >```
-```
-└── components
-    └── new-component
-        ├── new-component.html
-        ├── new-component.module.ts
-        ├── new-component.scss
-        └── new-component.ts
-```
+>```
+>└── components
+>    └── new-component
+>        ├── new-component.html
+>        ├── new-component.module.ts
+>        ├── new-component.scss
+>        └── new-component.ts
+>```
 · [Angular Directive Doc](https://angular.io/api/core/Directive)
 
 ### Pipes
