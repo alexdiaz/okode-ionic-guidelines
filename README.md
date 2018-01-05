@@ -198,5 +198,9 @@ export function getFullName(person: Person) {
 ```
 
 # Model-Forms (optional tool)
-TODO
+***Strategy used to generate dynamic forms (Angular Form Builder) based on models*** Used in `iMediador` project<br>
+
+We need:
+· [FormModels](https://github.com/okode/imediador/blob/master/app/src/utils/form-models.ts)<br>
+· FormProp decorator
 
