@@ -34,51 +34,54 @@ TODO
 TODO
 
 ### Pages
-> `@IonicPage`
-```
-$ npm run okode:generator page new-page
-```
-```
-└── pages
-    └── new-page
-        ├── new-page.html
-        ├── new-page.module.ts
-        ├── new-page.scss
-        └── new-page.ts
-```
+`@IonicPage`
+
+>```
+>$ npm run okode:generator page my-page
+>```
+>```
+>└── pages
+>    └── my-page
+>        ├── my-page.html
+>        ├── my-page.module.ts
+>        ├── my-page.scss
+>        └── my-page.ts
+>```
+
 · [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)<br>
 · [IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
 
 ### Components
-> `@Component`
-```
-$ npm run okode:generator component new-component
-```
-```
-└── components
-    └── new-component
-        ├── new-component.html
-        ├── new-component.module.ts
-        ├── new-component.scss
-        └── new-component.ts
-```
+`@Component`
+
+>```
+>$ npm run okode:generator component my-component
+>```
+>```
+>└── components
+>    └── my-component
+>        ├── my-component.html
+>        ├── my-component.module.ts
+>        ├── my-component.scss
+>        └── my-component.ts
+>```
+
 · [Angular Component Doc](https://angular.io/api/core/Component)
 
 
 ### Directives
-> `@Directive`
+`@Directive`
 
 >```
->$ npm run okode:generator component new-component
+>$ npm run okode:generator directive new-directive
 >```
 >```
->└── components
->    └── new-component
->        ├── new-component.html
->        ├── new-component.module.ts
->        ├── new-component.scss
->        └── new-component.ts
+>└── directives
+>    └── my-directive
+>        ├── my-directive.module.ts
+>        └── my-directive.ts
 >```
+
 · [Angular Directive Doc](https://angular.io/api/core/Directive)
 
 ### Pipes
