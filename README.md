@@ -219,7 +219,7 @@ export class Person {
   email?: string;
 }
 ```
-> A validator or list of validators can be passed to `@FormProp` decorator (like Angular Form Builder). Example:
+> A validator or list of validators can be passed to `@FormProp` decorator (like Angular Form Builder).
 
 And to get the `FormGroup` from a page or component:
 
