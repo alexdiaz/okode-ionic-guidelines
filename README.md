@@ -122,7 +122,7 @@ $ npm run okode:generator pipe my-pipe
 · [Angular Pipe Doc](https://angular.io/api/core/Pipe)
 
 ### Services
-`@Pipe`
+`@Injectable`
 
 ```
 $ npm run okode:generator services my-service
@@ -131,6 +131,9 @@ $ npm run okode:generator services my-service
 └── services
     └── my-service.ts
 ```
+· [Angular Injectable Doc](https://angular.io/api/core/Injectable)<br>
+· [Angular Dependency Injection Doc](https://angular.io/guide/dependency-injection)
+
 
 # Models
 TODO
