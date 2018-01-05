@@ -32,13 +32,13 @@ TODO
 # Modules and lazy pages/modules
 TODO
 
-## App Module
+### App Module
 TODO
 
-## IonicPageModule
+### IonicPageModule
 TODO
 
-## Others modules
+### Rest of modules
 TODO
 
 # Generator
