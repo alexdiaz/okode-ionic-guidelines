@@ -182,7 +182,21 @@ $ npm run okode:generator services my-service
 
 
 # Models
-TODO
+All models will be interfaces and will be placed in the models folder (see layout). Some model files can have exportable utility functions to transform data.
+
+Example of `models\person.ts`:
+```
+export interface Person {
+  name: string;
+  lastname: string;
+  email?: string;
+  phone?: number;
+}
+
+export function getFullName(person: Person) {
+  return person.name + ' ' + person.lastname;
+}
+```
 
 # Model-Forms (optional tool)
 TODO
