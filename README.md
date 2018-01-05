@@ -2,7 +2,8 @@
     
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
 
-*Table of contents*
+**Table of contents**
+TODO
 
 # Project layout
 
@@ -37,17 +38,17 @@ TODO
 ### Pages
 `@IonicPage`
 
->```
->$ npm run okode:generator page my-page
->```
->```
->└── pages
->    └── my-page
->        ├── my-page.html
->        ├── my-page.module.ts
->        ├── my-page.scss
->        └── my-page.ts
->```
+```
+$ npm run okode:generator page my-page
+```
+```
+└── pages
+    └── my-page
+        ├── my-page.html
+        ├── my-page.module.ts
+        ├── my-page.scss
+        └── my-page.ts
+```
 
 · [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)<br>
 · [IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
@@ -55,17 +56,17 @@ TODO
 ### Components
 `@Component`
 
->```
->$ npm run okode:generator component my-component
->```
->```
->└── components
->    └── my-component
->        ├── my-component.html
->        ├── my-component.module.ts
->        ├── my-component.scss
->        └── my-component.ts
->```
+```
+$ npm run okode:generator component my-component
+```
+```
+└── components
+    └── my-component
+        ├── my-component.html
+        ├── my-component.module.ts
+        ├── my-component.scss
+        └── my-component.ts
+```
 
 · [Angular Component Doc](https://angular.io/api/core/Component)
 
@@ -73,43 +74,43 @@ TODO
 ### Directives
 `@Directive`
 
->```
->$ npm run okode:generator directive my-directive
->```
->```
->└── directives
->    └── my-directive
->        ├── my-directive.module.ts
->        └── my-directive.ts
->```
+```
+$ npm run okode:generator directive my-directive
+```
+```
+└── directives
+    └── my-directive
+        ├── my-directive.module.ts
+        └── my-directive.ts
+```
 
 · [Angular Directive Doc](https://angular.io/api/core/Directive)
 
 ### Pipes
 `@Pipe`
 
->```
->$ npm run okode:generator pipe my-pipe
->```
->```
->└── pipes
->    └── my-pipe
->        ├── my-pipe.module.ts
->        └── my-pipe.ts
->```
+```
+$ npm run okode:generator pipe my-pipe
+```
+```
+└── pipes
+    └── my-pipe
+        ├── my-pipe.module.ts
+        └── my-pipe.ts
+```
 
 · [Angular Pipe Doc](https://angular.io/api/core/Pipe)
 
 ### Services
 `@Pipe`
 
->```
->$ npm run okode:generator services my-service
->```
->```
->└── services
->    └── my-service
->```
+```
+$ npm run okode:generator services my-service
+```
+```
+└── services
+    └── my-service
+```
 
 # Models
 TODO
