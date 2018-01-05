@@ -47,6 +47,7 @@ $ npm run okode:generator page new-page
         └── new-page.ts
 ```
 [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)
+
 [IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
 
 ### Components
