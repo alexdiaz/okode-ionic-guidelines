@@ -34,7 +34,17 @@ TODO
 TODO
 
 ### Pages
-TODO
+```
+$ npm run okode:generator page new-page
+```
+```
+└── pages
+    └── new-page
+        ├── new-page.html
+        ├── new-page.module.ts
+        ├── new-page.scss
+        └── new-page.ts
+```
 
 ### Components
 TODO
