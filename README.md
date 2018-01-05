@@ -43,10 +43,23 @@ This is the style guide defined by Okode for the development of apps with Ionic 
 ```
 
 # Modules and lazy load
-TODO
+· **App module**: Using IonicModule to bootstraps Ionic App.
+· **IonicPageModule**: Lazy modules
+· **Rest of modules**: 
 
 ### App Module
-TODO
+`IonicModule` is an `NgModule` that bootstraps an Ionic App. By passing a root component, IonicModule will make sure that all of the components, directives, and providers from the framework are imported.
+
+```
+@NgModule({
+  declarations: [MyApp],
+  bootstrap: [IonicApp],
+  entryComponents: [MyApp],
+  imports: [ IonicModule.forRoot(MyApp) ],
+  providers: []
+})
+export class AppModule { }
+```
 
 ### IonicPageModule
 TODO
