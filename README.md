@@ -1,18 +1,3 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
-
-- [Ionic project and code style guidelines](#)
-	- [Introduction](#)
-	- [Project layout](#)
-	- [Lazy pages / modules](#)
-	- [Generator](#)
-		- [Pages](#)
-		- [Components](#)
-		- [Directives](#)
-		- [Pipes](#)
-		- [Services](#)
-	- [Models](#)
-	- [Model-Forms (extra tool)](#)
-
 # Ionic project and code style guidelines
     
 ## Introduction
