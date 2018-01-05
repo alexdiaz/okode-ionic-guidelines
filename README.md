@@ -29,7 +29,7 @@ TODO
     └── index.html
 ```
 
-# Modules and lazy pages/modules
+# Modules and lazy load
 TODO
 
 ### App Module
