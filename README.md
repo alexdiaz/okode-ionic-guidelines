@@ -46,7 +46,7 @@ $ npm run okode:generator page new-page
         ├── new-page.scss
         └── new-page.ts
 ```
-· [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)
+· [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)<br>
 · [IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
 
 ### Components
@@ -67,7 +67,8 @@ $ npm run okode:generator component new-component
 
 ### Directives
 > `@Directive`
-```
+
+>```
 $ npm run okode:generator component new-component
 ```
 ```
