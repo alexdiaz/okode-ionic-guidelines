@@ -69,8 +69,8 @@ $ npm run okode:generator component new-component
 > `@Directive`
 
 >```
-$ npm run okode:generator component new-component
-```
+>$ npm run okode:generator component new-component
+>```
 ```
 └── components
     └── new-component
