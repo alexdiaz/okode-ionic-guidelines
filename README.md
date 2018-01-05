@@ -42,7 +42,7 @@ TODO
 TODO
 
 # Generator
-To use Okode Generator in a Ionic project, package.json needs `@okode/app-scripts` as `devDependencies` and define script alias to generator:
+To use Okode Generator in a Ionic project, package.json needs `@okode/app-scripts` as `devDependencies` and define generator script alias:
 
 ```json
 {
