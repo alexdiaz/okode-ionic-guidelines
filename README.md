@@ -219,8 +219,24 @@ export class Person {
   email?: string;
 }
 ```
-* A validator or list of validators can be passed to `@FormProp` decorator (like Angular Form Builder). Example:
+> A validator or list of validators can be passed to `@FormProp` decorator (like Angular Form Builder). Example:
 
+And to get the `FormGroup` from a page or component:
 
+```typescript
+import { FormGroup } from '@angular/forms';
+import { Person } from '../../models/person';
+import { FormModels } from '../../utils/form-models';
+
+let personForm: FormGroup = FormModels.buildForm(Person);
+```
+```html
+  <form [formGroup]="personForm">
+    <ion-item>
+      <ion-label floating>Name</ion-label>
+      <ion-input type="text" formControlName="name"></ion-input>
+    </ion-item>
+    ...
+```
 
 
