@@ -34,6 +34,7 @@ TODO
 TODO
 
 ### Pages ( @IonicPage - Lazy module )
+> `@IonicPage`: Lazy module
 ```
 $ npm run okode:generator page new-page
 ```
