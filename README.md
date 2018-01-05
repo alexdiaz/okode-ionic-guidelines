@@ -16,7 +16,7 @@ This is the style guide defined by Okode for the development of apps with Ionic 
   * [Services](#services)
 - [Models](#models)
 - [FormModels (optional tool)](#formmodels-optional-tool)
-
+- Tests > TODO
 
 # Project layout
 
