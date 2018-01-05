@@ -43,9 +43,9 @@ This is the style guide defined by Okode for the development of apps with Ionic 
 ```
 
 # Modules and lazy load
-· **App module**: Using IonicModule to bootstraps Ionic App.
-· **IonicPageModule**: Lazy modules
-· **Rest of modules**: 
+· **App module**: Using IonicModule to bootstraps Ionic App.<br>
+· **IonicPageModule**: Lazy modules.<br>
+· **Rest of modules**: For each component, directive or pipe, the generator will create its module to be imported into the modules of the pages that need them.<br>
 
 ### App Module
 `IonicModule` is an `NgModule` that bootstraps an Ionic App. By passing a root component, IonicModule will make sure that all of the components, directives, and providers from the framework are imported.
@@ -62,10 +62,21 @@ export class AppModule { }
 ```
 
 ### IonicPageModule
-TODO
+`IonicPageModule` is an `NgModule` that bootstraps a child IonicPage in order to set up routing. Load of this module is lazy
+
+```
+@NgModule({
+  declarations: [ MyPagePage ],
+  imports: [
+    IonicPageModule.forChild(MyPagePage),
+    // Components, directives or pipes modules can be imported here
+  ],
+})
+export class MyPageModule {}
+```
 
 ### Rest of modules
-TODO
+For each component, directive or pipe, the generator will create its module to be imported into the modules of the pages that need them. These modules can be imported into the `IonicPageModule` (in one or several of them), or only in App Module (if it's going to be used for a large number of pages).
 
 # Generator
 To use Okode Generator in a Ionic project, package.json needs `@okode/app-scripts` as `devDependencies` and define generator script alias:
