@@ -46,9 +46,8 @@ $ npm run okode:generator page new-page
         ├── new-page.scss
         └── new-page.ts
 ```
-[IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)
-
-[IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
+· [IonicPage Doc](https://ionicframework.com/docs/api/navigation/IonicPage/)
+· [IonicPageModule Doc](https://ionicframework.com/docs/api/IonicPageModule/)
 
 ### Components
 > `@Component`
@@ -63,7 +62,7 @@ $ npm run okode:generator component new-component
         ├── new-component.scss
         └── new-component.ts
 ```
-[Angular Component Doc](https://angular.io/api/core/Component)
+· [Angular Component Doc](https://angular.io/api/core/Component)
 
 
 ### Directives
@@ -79,7 +78,7 @@ $ npm run okode:generator component new-component
         ├── new-component.scss
         └── new-component.ts
 ```
-[Angular Directive Doc](https://angular.io/api/core/Directive)
+· [Angular Directive Doc](https://angular.io/api/core/Directive)
 
 ### Pipes
 TODO
