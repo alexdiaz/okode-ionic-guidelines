@@ -1,5 +1,17 @@
 # Ionic project and code style guidelines
 
+	- [Introduction](#)
+	- [Project layout](#)
+	- [Lazy pages / modules](#)
+	- [Generator](#)
+		- [Pages](#)
+		- [Components](#)
+		- [Directives](#)
+		- [Pipes](#)
+		- [Services](#)
+	- [Models](#)
+	- [Model-Forms (extra tool)](#)
+    
 ## Introduction
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
 
