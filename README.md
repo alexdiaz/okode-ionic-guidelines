@@ -202,8 +202,13 @@ export function getFullName(person: Person) {
 
 The objective is not to have to re-map models when building a FormGroup with the Angular FormBuilder and to do it automatically with the use of decorators in the model.<br>
 
+We need:<br>
+· [FormModels](https://github.com/okode/imediador/blob/master/app/src/utils/form-models.ts)<br>
+· FormProp decorator
+
+
 To make this, we need to change model interface to model class, and add decorator to form fields:
-```
+```typescript
 import { FormProp } from '../utils/decorators';
 export class Person {
   id: number;
@@ -215,14 +220,10 @@ export class Person {
 ```
 
 A validator or list of validators can be passed to `@FormProp` decorator (like Angular Form Builder). Example:
-```
+```typescript
   @FormProp([Validators.required, Validators.pattern('[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$')])
   email?: string;
 ```
 
 
-
-We need:<br>
-· [FormModels](https://github.com/okode/imediador/blob/master/app/src/utils/form-models.ts)<br>
-· FormProp decorator
 
