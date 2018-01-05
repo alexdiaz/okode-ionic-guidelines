@@ -5,7 +5,7 @@ This is the style guide defined by Okode for the development of apps with Ionic 
 
 ## Project layout
 
-```javascript
+```css
 └── src
     ├── app
     │   ├── app.component.ts
