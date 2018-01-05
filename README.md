@@ -37,19 +37,19 @@ To use Okode Generator in a Ionic project, package.json needs `@okode/app-script
 
 ```json
 {
-  [...]
   "scripts": {
-    // ...
     "okode:generator": "okode-app-scripts generator",
-    // ...
   "devDependencies": {
     "@okode/app-scripts": "https://github.com/okode/okode-app-scripts#develop",
-    ...
 }
 ```
 
-
-
+**Usage:**<br>
+```
+$ npm run okode:generator TYPE NAME`
+       TYPE must be one of: page, component, directive, pipe, service
+       NAME must be lowercase with - separating words: looks-like-this
+```
 
 
 ### Pages
