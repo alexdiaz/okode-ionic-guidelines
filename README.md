@@ -33,7 +33,7 @@ TODO
 ## Generator
 TODO
 
-### Pages
+### Pages ( @IonicPage - Lazy module )
 ```
 $ npm run okode:generator page new-page
 ```
@@ -46,8 +46,18 @@ $ npm run okode:generator page new-page
         └── new-page.ts
 ```
 
-### Components
-TODO
+### Components ( @Component )
+```
+$ npm run okode:generator component new-component
+```
+```
+└── components
+    └── new-component
+        ├── new-component.html
+        ├── new-component.module.ts
+        ├── new-component.scss
+        └── new-component.ts
+```
 
 ### Directives
 TODO
