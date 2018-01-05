@@ -12,14 +12,17 @@ This is the style guide defined by Okode for the development of apps with Ionic 
     │   ├── app.html
     │   ├── app.module.ts
     │   └── main.ts
-    ├── assets
-    ├── components    <!-- generator -->
-    ├── directives    # generator
-    ├── pages         \\ generator
-    ├── pipes         \\ generator
+    │   
+    ├── components      |
+    ├── directives      |
+    ├── pages           |    (Ionic/Angular pieces: create using generator)
+    ├── pipes           |
+    ├── services        |
+    │
     ├── models
-    ├── services      \\ generator
-    ├── theme
     ├── utils
+    │
+    ├── assets
+    ├── theme
     └── index.html
 ```
