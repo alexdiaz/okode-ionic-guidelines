@@ -29,7 +29,16 @@ TODO
     └── index.html
 ```
 
-# Lazy pages / modules
+# Modules and lazy pages/modules
+TODO
+
+## App Module
+TODO
+
+## IonicPageModule
+TODO
+
+## Others modules
 TODO
 
 # Generator
