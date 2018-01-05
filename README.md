@@ -55,7 +55,9 @@ This is the style guide defined by Okode for the development of apps with Ionic 
   declarations: [MyApp],
   bootstrap: [IonicApp],
   entryComponents: [MyApp],
-  imports: [ IonicModule.forRoot(MyApp) ],
+  imports: [
+    IonicModule.forRoot(MyApp)
+  ],
   providers: []
 })
 export class AppModule { }
@@ -82,15 +84,12 @@ For each component, directive or pipe, the generator will create its module to b
 To use Okode Generator in a Ionic project, package.json needs `@okode/app-scripts` as `devDependencies` and define generator script alias:
 
 ```json
-{
-
   "scripts": {
     "okode:generator": "okode-app-scripts generator",
-    
+  },
   "devDependencies": {
-    "@okode/app-scripts": "https://github.com/okode/okode-app-scripts#develop",
-    
-}
+    "@okode/app-scripts": "https://github.com/okode/okode-app-scripts#develop", 
+  }
 ```
 
 **Usage:**<br>
