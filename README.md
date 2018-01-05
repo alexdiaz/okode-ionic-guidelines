@@ -2,7 +2,7 @@
     
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
 
-**Table of contents**
+### Table of contents
 TODO
 
 # Project layout
@@ -33,7 +33,24 @@ TODO
 TODO
 
 # Generator
-TODO
+To use Okode Generator in a Ionic project, package.json needs `@okode/app-scripts` as `devDependencies` and add npm alias to run `okode-app-scripts generator`:
+
+```json
+{
+  ...
+  "scripts": {
+    ...
+    "okode:generator": "okode-app-scripts generator",
+    ...
+  "devDependencies": {
+    "@okode/app-scripts": "https://github.com/okode/okode-app-scripts#develop",
+    ...
+}
+```
+
+
+
+
 
 ### Pages
 `@IonicPage`
