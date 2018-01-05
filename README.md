@@ -50,7 +50,7 @@ This is the style guide defined by Okode for the development of apps with Ionic 
 ### App Module
 `IonicModule` is an `NgModule` that bootstraps an Ionic App. By passing a root component, IonicModule will make sure that all of the components, directives, and providers from the framework are imported.
 
-```
+```typescript
 @NgModule({
   declarations: [MyApp],
   bootstrap: [IonicApp],
@@ -64,7 +64,7 @@ export class AppModule { }
 ### IonicPageModule
 `IonicPageModule` is an `NgModule` that bootstraps a child IonicPage in order to set up routing. Load of this module is lazy
 
-```
+```typescript
 @NgModule({
   declarations: [ MyPagePage ],
   imports: [
@@ -185,7 +185,7 @@ $ npm run okode:generator services my-service
 All models will be interfaces and will be placed in the models folder (see layout). Some model files can have exportable utility functions to transform data.
 
 Example of `models\person.ts`:
-```
+```typescript
 export interface Person {
   name: string;
   lastname: string;
