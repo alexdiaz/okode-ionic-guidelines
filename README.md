@@ -15,7 +15,7 @@ This is the style guide defined by Okode for the development of apps with Ionic 
   * [Pipes](#pipes)
   * [Services](#services)
 - [Models](#models)
-- [Model-Forms (optional tool)](#api)
+- [Model-Forms (optional tool)](#model-forms-optional-tool)
 
 
 # Project layout
