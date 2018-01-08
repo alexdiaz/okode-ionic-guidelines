@@ -1,3 +1,5 @@
+# Moved to https://github.com/okode/ionic-guidelines
+
 # Ionic project and code style guidelines
     
 This is the style guide defined by Okode for the development of apps with Ionic / Angular.
